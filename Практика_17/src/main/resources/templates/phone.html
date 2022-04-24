@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>pr15</title>
+</head>
+<body>
+<div>
+
+    <div th:each="el : ${phones}" class = "alert alert-info mt-2">
+        <h3 th:text = "${el.name}"/>
+    </div>
+</div>
+</body>
+</html>
